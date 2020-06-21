@@ -1,0 +1,22 @@
+# Setup
+title:               allenjd3
+tagline:             'a place to set on'
+description:         'This site is a place that I have made that contains thoughts that I have thought and words that I have written for the purpose of reading.'
+url:                 https://allenjd3.github.io
+baseurl:             ''
+paginate:            3
+permalink:           pretty
+
+# About/contact
+author:
+  name:              James Allen
+  url:               https://twitter.com/jacques2186
+  email:             james.allen081713@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             0.0.15-alpha-gama
+google_analytics_id: #UA-XXXX-Y
