@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Old is New Again"
-date:   2020-01-12 20:02:00 -0400
+date:   2021-01-12 20:02:00 -0400
 categories: general
 ---
 You may have heard about the latest and greatest new piece of front-end tech : Hotwire. Hotwire literally stands for HTML over the wire. If you don't have a clue about what I'm talking about, check out this site and then make your way back here. [hotwire.dev](https://hotwire.dev)
