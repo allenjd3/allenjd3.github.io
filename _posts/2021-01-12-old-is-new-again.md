@@ -55,6 +55,6 @@ The above will have you creating updating and destroying as long as you don't ha
       end
     end
 ```
-The important bit here is the new format- turbo_stream. This allows you to pass back something from yuor controller that will replace your original frame.
+The important bit here is the new format- turbo_stream. This allows you to pass back something from your controller that will replace your original frame.
 
 Anyway, I hope that is all helpful information. Hotwire seems like its really going to help speed up development!
