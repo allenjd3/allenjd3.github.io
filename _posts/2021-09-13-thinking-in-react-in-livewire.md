@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thinking in React... in Livewire"
-date:   2021-09-13 09:55:00 -0400
+date:   2021-09-13 16:00:00 -0400
 categories: general
 ---
 So I've talked a little about Hotwire in the past but for Laravel there is a much more ubiquitous "wire" around- [Livewire](https://laravel-livewire.com/). Hotwire is very much a "build the way you always build and then sprinkle in the magic" tool. Livewire is more of a thought switch so I struggled with it at first. I think I've found the correct balance for it though and it comes from an article I read in the React Docs of all places: [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
