@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "whereIn Invalid Parameter Number Goodness"
+title:  "Laravel Invalid Parameter Number with whereIn()"
 date:   2022-09-22 15:40:00 -0400
 categories: general
 ---
