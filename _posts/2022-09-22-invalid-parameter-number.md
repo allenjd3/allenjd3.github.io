@@ -6,7 +6,7 @@ categories: general
 ---
 I'm posting this so that I remember in a few years when this happens again...
 
-We had a very interesting error that simply said- SQLSTATE[HY093]: Invalid parameter number. The query that it showed looked fine and so I spent a significant amount of time scratching my head wondering if I was losing my marbles.
+We had a very interesting error that simply said- `SQLSTATE[HY093]: Invalid parameter number`. The query that it showed looked fine and so I spent a significant amount of time scratching my head wondering if I was losing my marbles.
 
 Here was the query- 
 ```sql
