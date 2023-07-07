@@ -5,7 +5,7 @@ date:   2023-07-06 15:00:00 -0400
 categories: general
 ---
 Rails 7 introduced some new ways of interacting with javascript. It introduced importmaps which are a new way of pinning
-your js files to your project. It also make turbo the default for frontend development which mostly got rid of the need
+your js files to your project. It also made turbo the default for frontend development which mostly got rid of the need
 to have frontend javascript. One thing that I miss about rails 6 however was the quick and easy integration with tools
 like inertiajs. This article goes into the new way to install it so I don't forget in the future.
 
