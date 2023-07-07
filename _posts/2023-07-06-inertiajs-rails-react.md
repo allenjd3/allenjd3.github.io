@@ -39,7 +39,7 @@ bundle exec vite install
 5. Install vite-plugin-rails and @vitejs/plugin-react
 
 ```
-yarn add -D vite-plugin-rails @vitejs/plugin-react
+yarn add -D vite-plugin-rails @vitejs/plugin-react react react-dom @inertiajs/react
 ```
 
 Make sure your vite.config.ts looks like the following-
@@ -59,10 +59,10 @@ export default defineConfig({
 
 6. In `app/frontend` add two new folders- css and pages
 
-In pages we can add our first test file- Home.jsx with the following contents
+In pages we can add our first test file- home.jsx with the following contents
 
 ```jsx
-export default function Home() {
+export default function home() {
   return (
     <div className="mt-16 mx-auto max-w-5xl">
       <h1 className="text-3xl">Hello home</h1>
@@ -100,11 +100,18 @@ You can delete the `app/views/home/index.html.erb` file that is created
 
 In the home_controller, change it as follows-
 
-```rb
+```ruby
 class HomeController < ApplicationController
   def index
-    render inertia: 'home/index'
+    render inertia: 'home'
   end
+end
+```
+Then add your route to the routes file-
+
+```ruby
+Rails.application.routes.draw do
+  root "home#index"
 end
 ```
 
@@ -131,7 +138,7 @@ module.exports = {
 }
 ```
 
-10. Add the style.css file to `app/frontend/css` and paste the following
+10. Add the styles.css file to `app/frontend/css` and paste the following
 
 ```css
 @tailwind base;
