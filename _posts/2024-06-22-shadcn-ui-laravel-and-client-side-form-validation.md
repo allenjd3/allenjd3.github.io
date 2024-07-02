@@ -9,4 +9,7 @@ Here is another video I made where I talk about the shadcn/ui library, how you c
 
 Enjoy!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pGOMD9WFr3g?si=R78WL5YEptqPKqOK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pGOMD9WFr3g?si=R78WL5YEptqPKqOK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
