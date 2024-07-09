@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Shadcn/ui Laravel and Server Side Form Validation"
-date:   2024-07-09 07:00:00 -0400
+date:   2024-07-08 19:00:00 -0400
 categories: general
 ---
 This is the second part of my videos on integrating the Shadcn/ui library with laravel. In this video I go into how you can pass validation errors from the server into your Shadcn form component.
