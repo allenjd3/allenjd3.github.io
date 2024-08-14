@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Clerk.com with a laravel backend part 2"
-date:   2024-08-02 19:00:00 -0400
+date:   2024-08-03 19:00:00 -0400
 categories: general
 description: "In this video we are going to be adding on a laravel backend and decoding the jwt that we passed from our frontend in the previous video."
 ---
