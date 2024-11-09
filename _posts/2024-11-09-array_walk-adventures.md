@@ -6,8 +6,6 @@ categories: general
 description: "This is less a blog post and more a, 'huh, why did that happen' post."
 ---
 
-# Array Walk Adventures
-
 I noticed something weird today that I thought I'd share. Before you get too excited know that I only am supplying the questions this time. I don't have a great answer to why this thing is happening.
 
 So I've been on a quest to learn more php functions lately and I came across <a href="https://www.php.net/manual/en/function.array-walk.php">array_walk</a>. When I read the description I immediately thought, "Oh it allows you to keep the original keys? This must be what laravel's map function uses. I was wrong though. Here is Laravel's map function.
