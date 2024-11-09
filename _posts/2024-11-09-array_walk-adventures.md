@@ -45,13 +45,19 @@ So you see it runs array_keys to get the keys, does array_map with the callback 
     public static function map(array $array, callable $callback)
     {
         try {
-            array_walk($array, function (&$val, $key) use ($callback) {
+            array_walk(
+              $array,
+              function (&$val, $key) use ($callback) {
                 $val = $callback($val, $key);
-            });
+              },
+            );
         } catch (ArgumentCountError) {
-            array_walk($array, function (&$val) use ($callback) {
+            array_walk(
+              $array,
+              function (&$val) use ($callback) {
                 $val = $callback($val);
-            });
+              },
+            );
         }
 
         return $array;
